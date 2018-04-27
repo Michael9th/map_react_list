@@ -1,0 +1,9 @@
+.map {
+    height: 300px;
+  }
+   
+  @media screen and (min-width: 200px){
+      .map {
+          height: 500px;
+      }
+  }

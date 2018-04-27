@@ -24,7 +24,7 @@ yarn-error.log*
 mongodb/
 
 #other
-*.css
+# *.css
 _old/
 *~
 ._

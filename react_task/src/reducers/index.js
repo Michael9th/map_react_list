@@ -25,6 +25,10 @@ export default function address(state = initialState, action) {
             return state;
         }
 
+        case 'GET_FETCH': {
+            return {...state}
+        }
+
         default: {
             return state;
         }

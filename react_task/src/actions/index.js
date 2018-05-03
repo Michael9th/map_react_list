@@ -41,9 +41,4 @@ export const fetchLocation = address => dispatch => {
             }
         })
         .catch(err => console.error(err));
-    // return {
-    //     type: 'GET_FETCH',
-    //     payload: { getFromFetch }
-    // }
-
     };

@@ -19,6 +19,7 @@ logs/
 
 yarn-debug.log*
 yarn-error.log*
+package-lock.json
 
 #test local DBs
 mongodb/

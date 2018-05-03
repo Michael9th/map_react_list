@@ -9,15 +9,15 @@ const initialState = {
 export default function address(state = initialState, action) {
     switch (action.type) {
         case 'GET_SUCCESS_LOCATION': {
-            const newAddresses = state.addresses.concat(action.name);
+            const newAddresses = state.addresses.concat(action.payload.name);
             return {
-                currentAddress: action.address,
+                currentAddress: action.payload.address,
                 addresses: newAddresses
             };
         }
 
         case 'SET_LOCATION': {
-            return { ...state, currentAddress: action.coord };
+            return { ...state, currentAddress: action.payload.coord };
         }
 
         case 'DELETE_LOCATION': {

@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-import './Place.css';
-
 export default class Place extends Component {
     constructor(props) {
         super(props);
@@ -18,8 +16,8 @@ export default class Place extends Component {
     render() {
         return (
             <div onClick={this.showOnMap}>
-                <span onClick={this.handleDelete}> × </span>
-                { this.props.address }
+                <a className="waves-effect waves-light btn-small" onClick={this.handleDelete}>Del</a>
+                <span>{ this.props.address }</span>
             </div>
         );
     }

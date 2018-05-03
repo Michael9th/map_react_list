@@ -60,6 +60,7 @@ export default class PlaceAdd extends Component {
 
     render() {
         return (
+            
             <div className="editor">
                 <input
                     className="editor__textarea"

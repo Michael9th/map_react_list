@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 
-import styles from "../components/myMaps.css";
- 
 //const MY_API_KEY = "AIzaSyAW_1rlpljmMPfr03W7p-k6nBNHSKqPrFM"
 
 import {

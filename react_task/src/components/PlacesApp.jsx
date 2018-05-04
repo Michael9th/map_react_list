@@ -56,13 +56,10 @@ class PlacesApp extends React.Component {
                             address={this.props.currentAddress}
                         />
                     </div>
-
-
                 </div>
-
             </div>
         );
-    }
+    };
 }
 
 export default connect(state => state, { setLocation, setCurrentLocation, deleteLocation })(PlacesApp);
